@@ -60,31 +60,31 @@ var zm2,zm3,zm4;
 // spooky bg music => https://www.youtube.com/watch?v=70HCGgKog_U
 
 function preload(){
-bg = loadImage("../images/bg.jpg");
-zombie1 = loadImage("../images/zombie1.png");
-zombie2 = loadImage("../images/zombie2.png");
-zombie3 = loadImage("../images/zombie3.png");
-zombie4 = loadImage("../images/zombie4.png");
-person1 = loadImage("../images/person1.jpg");
-person2 = loadImage("../images/person2.jpg");
-person3 = loadImage("../images/person3.jpg");
-person4 = loadImage("../images/person4.jpg");
-person5 = loadImage("../images/person5.jpg");
-person6 = loadImage("../images/person6.jpg");
-playera1 = loadImage("../images/PLAYER1.png"); 
-playera2 = loadImage("../images/PLAYER2.png"); 
-playera3 = loadImage("../images/PLAYER3.png"); 
-playera4 = loadImage("../images/PLAYER4.png"); 
-playera5 = loadImage("../images/PLAYER5.png"); 
-playera6 = loadImage("../images/PLAYER6.png"); 
-bullet_img = loadImage("../images/bullet.png");
-on_entry = loadSound("../Sounds/ON-ENTRY.mp3");
-gunshot = loadSound("../Sounds/gunshot.mp3");
-zombie_death = loadSound("../Sounds/zombie_death.mp3");
-crown_img = loadImage("../images/crown.png");
-bg_music = loadSound("../Sounds/bg_music.mp3");
-tele_img = loadImage("../images/teleCentre.png");
-zombie_icon = loadImage("../images/zombie_icon.png");
+bg = loadImage("images/bg.jpg");
+zombie1 = loadImage("images/zombie1.png");
+zombie2 = loadImage("images/zombie2.png");
+zombie3 = loadImage("images/zombie3.png");
+zombie4 = loadImage("images/zombie4.png");
+person1 = loadImage("images/person1.jpg");
+person2 = loadImage("images/person2.jpg");
+person3 = loadImage("images/person3.jpg");
+person4 = loadImage("images/person4.jpg");
+person5 = loadImage("images/person5.jpg");
+person6 = loadImage("images/person6.jpg");
+playera1 = loadImage("images/PLAYER1.png"); 
+playera2 = loadImage("images/PLAYER2.png"); 
+playera3 = loadImage("images/PLAYER3.png"); 
+playera4 = loadImage("images/PLAYER4.png"); 
+playera5 = loadImage("images/PLAYER5.png"); 
+playera6 = loadImage("images/PLAYER6.png"); 
+bullet_img = loadImage("images/bullet.png");
+on_entry = loadSound("Sounds/ON-ENTRY.mp3");
+gunshot = loadSound("Sounds/gunshot.mp3");
+zombie_death = loadSound("Sounds/zombie_death.mp3");
+crown_img = loadImage("images/crown.png");
+bg_music = loadSound("Sounds/bg_music.mp3");
+tele_img = loadImage("images/teleCentre.png");
+zombie_icon = loadImage("images/zombie_icon.png");
 
 }
 function setup(){
